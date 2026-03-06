@@ -6,7 +6,7 @@ body {
 }
 div{
     margin: 0 auto;
-    max-width: 600px;
+    max-width: max-content;
 }
 button {
     background-color: #4CAF50;
@@ -15,4 +15,21 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#rechini {
+    border: 2px dotted rgb(253, 4, 224);
+}
+
+#delfini {
+    border: 2px dotted rgb(4, 253, 16);
+}
+
+#broaste {
+    border: 2px dotted rgb(4, 16, 253);
 }
