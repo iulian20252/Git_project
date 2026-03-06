@@ -10,11 +10,15 @@
     <div id="rechini" role="tabpanel">
         <p>Rechini sunt animale marine carnivore.</p>
     </div> 
-    <div id="delfini" role="tabpanel">
+    <div id="delfini" role="tabpanel" hidden>
         <p>Delfinii sunt mamifere marine inteligente.</p>
     </div>
-    <div id="broaste" role="tabpanel">
+    <div id="broaste" role="tabpanel" hidden>
         <p>Broastele sunt amfibieni care traiesc atat in apa, cat si pe uscat.</p>
     </div>
+
+    <button role="tab" aria-controls="rechini" aria-selected="true">Rechini</button>
+    <button role="tab" aria-controls="delfini" aria-selected="false">Delfini</button>
+    <button role="tab" aria-controls="broaste" aria-selected="false">Broaste</button>
 </body>
 </html>
